@@ -3,7 +3,7 @@ require "yaml"# require modules here
 
 def load_library(emoticons)
   emoticons=angel:
-    - "O:)"      
+    - "O:)"
     - "☜(⌒▽⌒)☞"
   angry:
     - ">:("
@@ -15,7 +15,7 @@ def load_library(emoticons)
     - "%)"
     - "(゜.゜)"
   embarrased:
-    - ":$" 
+    - ":$"
     - "(#^.^#)"
   fish:
     - "><>"
