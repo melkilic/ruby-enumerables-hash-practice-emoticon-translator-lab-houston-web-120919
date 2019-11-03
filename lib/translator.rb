@@ -7,7 +7,7 @@ def load_library(file_path)
      english,japan= value
      emoticons["get_meaning"][japan]= key
      emoticons["get_emoticon"][english]= japan
-     
+
    }
   emoticons
 end
