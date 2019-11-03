@@ -1,6 +1,9 @@
-# require modules here
 
-def load_library
+require "yaml"# require modules here
+
+def load_library(emoticons)
+  emoticons= YAML.load_file('emoticons.yml')
+  fruits
   # code goes here
 end
 
