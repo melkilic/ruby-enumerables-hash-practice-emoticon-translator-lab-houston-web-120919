@@ -2,6 +2,7 @@
 require "yaml"# require modules here
 
 def load_library(file_path)
+  file_path = File.read("user.txt").split
   emoticons= YAML.load_file(file_path)
   emoticons
   # code goes here
