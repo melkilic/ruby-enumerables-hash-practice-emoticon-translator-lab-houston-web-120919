@@ -18,6 +18,8 @@ final_value= emoticons["get_emoticon"][emoticon]
 final_value ? emoticons["get_emoticon"][emoticon] : "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file_path, emoticon)
+  emoticons=load_library(file_path)
+  final_value= emoticons["get_meaning"][emoticon]
+  final_value ? emoticons["get_meaning"][emoticon] : "Sorry, that emoticon was not found"
 end
